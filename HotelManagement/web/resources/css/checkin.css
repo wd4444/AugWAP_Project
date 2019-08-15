@@ -1,0 +1,2051 @@
+/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+
+/* End extract */
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+html {
+    overflow-x: hidden
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+.chkin-serif {
+    font-family: serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.chkin-wide {
+    letter-spacing: 4px
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+.chkin-image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+.chkin-table,
+.chkin-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.chkin-table-all {
+    border: 1px solid #ccc
+}
+
+.chkin-bordered tr,
+.chkin-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.chkin-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.chkin-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.chkin-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.chkin-hoverable tbody tr:hover,
+.chkin-ul.chkin-hoverable li:hover {
+    background-color: #ccc
+}
+
+.chkin-centered tr th,
+.chkin-centered tr td {
+    text-align: center
+}
+
+.chkin-table td,
+.chkin-table th,
+.chkin-table-all td,
+.chkin-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.chkin-table th:first-child,
+.chkin-table td:first-child,
+.chkin-table-all th:first-child,
+.chkin-table-all td:first-child {
+    padding-left: 16px
+}
+
+.chkin-btn,
+.chkin-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.chkin-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.chkin-btn,
+.chkin-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.chkin-disabled,
+.chkin-btn:disabled,
+.chkin-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.chkin-disabled *,
+:disabled * {
+    pointer-events: none
+}
+
+.chkin-btn.chkin-disabled:hover,
+.chkin-btn:disabled:hover {
+    box-shadow: none
+}
+
+.chkin-badge,
+.chkin-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.chkin-badge {
+    border-radius: 50%
+}
+
+.chkin-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.chkin-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd
+}
+
+.chkin-ul li:last-child {
+    border-bottom: none
+}
+
+.chkin-tooltip,
+.chkin-display-container {
+    position: relative
+}
+
+.chkin-tooltip .chkin-text {
+    display: none
+}
+
+.chkin-tooltip:hover .chkin-text {
+    display: inline-block
+}
+
+.chkin-ripple:active {
+    opacity: 0.5
+}
+
+.chkin-ripple {
+    transition: opacity 0s
+}
+
+.chkin-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.chkin-select {
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.chkin-dropdown-click,
+.chkin-dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer
+}
+
+.chkin-dropdown-hover:hover .chkin-dropdown-content {
+    display: block
+}
+
+.chkin-dropdown-hover:first-child,
+.chkin-dropdown-click:hover {
+    background-color: #ccc;
+    color: #000
+}
+
+.chkin-dropdown-hover:hover > .chkin-button:first-child,
+.chkin-dropdown-click:hover > .chkin-button:first-child {
+    background-color: #ccc;
+    color: #000
+}
+
+.chkin-dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+.chkin-check,
+.chkin-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.chkin-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
+}
+
+.chkin-bar-block .chkin-dropdown-hover,
+.chkin-bar-block .chkin-dropdown-click {
+    width: 100%
+}
+
+.chkin-bar-block .chkin-dropdown-hover .chkin-dropdown-content,
+.chkin-bar-block .chkin-dropdown-click .chkin-dropdown-content {
+    min-width: 100%
+}
+
+.chkin-bar-block .chkin-dropdown-hover .chkin-button,
+.chkin-bar-block .chkin-dropdown-click .chkin-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
+.chkin-main,
+#main {
+    transition: margin-left .4s
+}
+
+.chkin-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.chkin-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
+}
+
+.chkin-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.chkin-center .chkin-bar {
+    display: inline-block;
+    width: auto
+}
+
+.chkin-bar .chkin-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.chkin-bar .chkin-dropdown-hover,
+.chkin-bar .chkin-dropdown-click {
+    position: static;
+    float: left
+}
+
+.chkin-bar .chkin-button {
+    white-space: normal
+}
+
+.chkin-bar-block .chkin-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.chkin-bar-block.chkin-center .chkin-bar-item {
+    text-align: center
+}
+
+.chkin-block {
+    display: block;
+    width: 100%
+}
+
+.chkin-responsive {
+    display: block;
+    overflow-x: auto
+}
+
+.chkin-container:after,
+.chkin-container:before,
+.chkin-panel:after,
+.chkin-panel:before,
+.chkin-row:after,
+.chkin-row:before,
+.chkin-row-padding:after,
+.chkin-row-padding:before,
+.chkin-cell-row:before,
+.chkin-cell-row:after,
+.chkin-clear:after,
+.chkin-clear:before,
+.chkin-bar:before,
+.chkin-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.chkin-col,
+.chkin-half,
+.chkin-third,
+.chkin-twothird,
+.chkin-threequarter,
+.chkin-quarter {
+    float: left;
+    width: 100%
+}
+
+.chkin-col.s1 {
+    width: 8.33333%
+}
+
+.chkin-col.s2 {
+    width: 16.66666%
+}
+
+.chkin-col.s3 {
+    width: 24.99999%
+}
+
+.chkin-col.s4 {
+    width: 33.33333%
+}
+
+.chkin-col.s5 {
+    width: 41.66666%
+}
+
+.chkin-col.s6 {
+    width: 49.99999%
+}
+
+.chkin-col.s7 {
+    width: 58.33333%
+}
+
+.chkin-col.s8 {
+    width: 66.66666%
+}
+
+.chkin-col.s9 {
+    width: 74.99999%
+}
+
+.chkin-col.s10 {
+    width: 83.33333%
+}
+
+.chkin-col.s11 {
+    width: 91.66666%
+}
+
+.chkin-col.s12 {
+    width: 99.99999%
+}
+
+@media (min-width: 601px) {
+    .chkin-col.m1 {
+        width: 8.33333%
+    }
+
+    .chkin-col.m2 {
+        width: 16.66666%
+    }
+
+    .chkin-col.m3,
+    .chkin-quarter {
+        width: 24.99999%
+    }
+
+    .chkin-col.m4,
+    .chkin-third {
+        width: 33.33333%
+    }
+
+    .chkin-col.m5 {
+        width: 41.66666%
+    }
+
+    .chkin-col.m6,
+    .chkin-half {
+        width: 49.99999%
+    }
+
+    .chkin-col.m7 {
+        width: 58.33333%
+    }
+
+    .chkin-col.m8,
+    .chkin-twothird {
+        width: 66.66666%
+    }
+
+    .chkin-col.m9,
+    .chkin-threequarter {
+        width: 74.99999%
+    }
+
+    .chkin-col.m10 {
+        width: 83.33333%
+    }
+
+    .chkin-col.m11 {
+        width: 91.66666%
+    }
+
+    .chkin-col.m12 {
+        width: 99.99999%
+    }
+}
+
+@media (min-width: 993px) {
+    .chkin-col.l1 {
+        width: 8.33333%
+    }
+
+    .chkin-col.l2 {
+        width: 16.66666%
+    }
+
+    .chkin-col.l3 {
+        width: 24.99999%
+    }
+
+    .chkin-col.l4 {
+        width: 33.33333%
+    }
+
+    .chkin-col.l5 {
+        width: 41.66666%
+    }
+
+    .chkin-col.l6 {
+        width: 49.99999%
+    }
+
+    .chkin-col.l7 {
+        width: 58.33333%
+    }
+
+    .chkin-col.l8 {
+        width: 66.66666%
+    }
+
+    .chkin-col.l9 {
+        width: 74.99999%
+    }
+
+    .chkin-col.l10 {
+        width: 83.33333%
+    }
+
+    .chkin-col.l11 {
+        width: 91.66666%
+    }
+
+    .chkin-col.l12 {
+        width: 99.99999%
+    }
+}
+
+.chkin-rest {
+    overflow: hidden
+}
+
+.chkin-stretch {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.chkin-content,
+.chkin-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.chkin-content {
+    max-width: 980px
+}
+
+.chkin-auto {
+    max-width: 1140px
+}
+
+.chkin-cell-row {
+    display: table;
+    width: 100%
+}
+
+.chkin-cell {
+    display: table-cell
+}
+
+.chkin-cell-top {
+    vertical-align: top
+}
+
+.chkin-cell-middle {
+    vertical-align: middle
+}
+
+.chkin-cell-bottom {
+    vertical-align: bottom
+}
+
+.chkin-hide {
+    display: none !important
+}
+
+.chkin-show-block,
+.chkin-show {
+    display: block !important
+}
+
+.chkin-show-inline-block {
+    display: inline-block !important
+}
+
+@media (max-width: 1205px) {
+    .chkin-auto {
+        max-width: 95%
+    }
+}
+
+@media (max-width: 600px) {
+    .chkin-modal-content {
+        margin: 0 10px;
+        width: auto !important
+    }
+
+    .chkin-modal {
+        padding-top: 30px
+    }
+
+    .chkin-dropdown-hover.chkin-mobile .chkin-dropdown-content,
+    .chkin-dropdown-click.chkin-mobile .chkin-dropdown-content {
+        position: relative
+    }
+
+    .chkin-hide-small {
+        display: none !important
+    }
+
+    .chkin-mobile {
+        display: block;
+        width: 100% !important
+    }
+
+    .chkin-bar-item.chkin-mobile,
+    .chkin-dropdown-hover.chkin-mobile,
+    .chkin-dropdown-click.chkin-mobile {
+        text-align: center
+    }
+
+    .chkin-dropdown-hover.chkin-mobile,
+    .chkin-dropdown-hover.chkin-mobile .chkin-btn,
+    .chkin-dropdown-hover.chkin-mobile .chkin-button,
+    .chkin-dropdown-click.chkin-mobile,
+    .chkin-dropdown-click.chkin-mobile .chkin-btn,
+    .chkin-dropdown-click.chkin-mobile .chkin-button {
+        width: 100%
+    }
+}
+
+@media (max-width: 768px) {
+    .chkin-modal-content {
+        width: 500px
+    }
+
+    .chkin-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width: 993px) {
+    .chkin-modal-content {
+        width: 900px
+    }
+
+    .chkin-hide-large {
+        display: none !important
+    }
+
+    .chkin-sidebar.chkin-collapse {
+        display: block !important
+    }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+    .chkin-hide-medium {
+        display: none !important
+    }
+}
+
+@media (max-width: 992px) {
+    .chkin-sidebar.chkin-collapse {
+        display: none
+    }
+
+    .chkin-main {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+
+    .chkin-auto {
+        max-width: 100%
+    }
+}
+
+.chkin-top,
+.chkin-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.chkin-top {
+    top: 0
+}
+
+.chkin-bottom {
+    bottom: 0
+}
+
+.chkin-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2
+}
+
+.chkin-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.chkin-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.chkin-display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.chkin-display-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.chkin-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.chkin-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
+}
+
+.chkin-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
+
+.chkin-display-topmiddle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.chkin-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.chkin-display-container:hover .chkin-display-hover {
+    display: block
+}
+
+.chkin-display-container:hover span.chkin-display-hover {
+    display: inline-block
+}
+
+.chkin-display-hover {
+    display: none
+}
+
+.chkin-display-position {
+    position: absolute
+}
+
+.chkin-circle {
+    border-radius: 50%
+}
+
+.chkin-round-small {
+    border-radius: 2px
+}
+
+.chkin-round,
+.chkin-round-medium {
+    border-radius: 4px
+}
+
+.chkin-round-large {
+    border-radius: 8px
+}
+
+.chkin-round-xlarge {
+    border-radius: 16px
+}
+
+.chkin-round-xxlarge {
+    border-radius: 32px
+}
+
+.chkin-row-padding,
+.chkin-row-padding > .chkin-half,
+.chkin-row-padding > .chkin-third,
+.chkin-row-padding > .chkin-twothird,
+.chkin-row-padding > .chkin-threequarter,
+.chkin-row-padding > .chkin-quarter,
+.chkin-row-padding > .chkin-col {
+    padding: 0 8px
+}
+
+.chkin-container,
+.chkin-panel {
+    padding: 0.01em 16px
+}
+
+.chkin-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.chkin-code,
+.chkin-codespan {
+    font-family: Consolas, "courier new";
+    font-size: 16px
+}
+
+.chkin-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.chkin-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.chkin-card,
+.chkin-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.chkin-card-4,
+.chkin-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.chkin-spin {
+    animation: chkin-spin 2s infinite linear
+}
+
+@keyframes chkin-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.chkin-animate-fading {
+    animation: fading 10s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.chkin-animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.chkin-animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.chkin-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.chkin-animate-right {
+    position: relative;
+    animation: animateright 0.4s
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.chkin-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.chkin-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.chkin-animate-input {
+    transition: width 0.4s ease-in-out
+}
+
+.chkin-animate-input:focus {
+    width: 100% !important
+}
+
+.chkin-opacity,
+.chkin-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.chkin-opacity-off,
+.chkin-hover-opacity-off:hover {
+    opacity: 1
+}
+
+.chkin-opacity-max {
+    opacity: 0.25
+}
+
+.chkin-opacity-min {
+    opacity: 0.75
+}
+
+.chkin-greyscale-max,
+.chkin-grayscale-max,
+.chkin-hover-greyscale:hover,
+.chkin-hover-grayscale:hover {
+    filter: grayscale(100%)
+}
+
+.chkin-greyscale,
+.chkin-grayscale {
+    filter: grayscale(75%)
+}
+
+.chkin-greyscale-min,
+.chkin-grayscale-min {
+    filter: grayscale(50%)
+}
+
+.chkin-sepia {
+    filter: sepia(75%)
+}
+
+.chkin-sepia-max,
+.chkin-hover-sepia:hover {
+    filter: sepia(100%)
+}
+
+.chkin-sepia-min {
+    filter: sepia(50%)
+}
+
+.chkin-tiny {
+    font-size: 10px !important
+}
+
+.chkin-small {
+    font-size: 12px !important
+}
+
+.chkin-medium {
+    font-size: 15px !important
+}
+
+.chkin-large {
+    font-size: 18px !important
+}
+
+.chkin-xlarge {
+    font-size: 24px !important
+}
+
+.chkin-xxlarge {
+    font-size: 36px !important
+}
+
+.chkin-xxxlarge {
+    font-size: 48px !important
+}
+
+.chkin-jumbo {
+    font-size: 64px !important
+}
+
+.chkin-left-align {
+    text-align: left !important
+}
+
+.chkin-right-align {
+    text-align: right !important
+}
+
+.chkin-justify {
+    text-align: justify !important
+}
+
+.chkin-center {
+    text-align: center !important
+}
+
+.chkin-border-0 {
+    border: 0 !important
+}
+
+.chkin-border {
+    border: 1px solid #ccc !important
+}
+
+.chkin-border-top {
+    border-top: 1px solid #ccc !important
+}
+
+.chkin-border-bottom {
+    border-bottom: 1px solid #ccc !important
+}
+
+.chkin-border-left {
+    border-left: 1px solid #ccc !important
+}
+
+.chkin-border-right {
+    border-right: 1px solid #ccc !important
+}
+
+.chkin-topbar {
+    border-top: 6px solid #ccc !important
+}
+
+.chkin-bottombar {
+    border-bottom: 6px solid #ccc !important
+}
+
+.chkin-leftbar {
+    border-left: 6px solid #ccc !important
+}
+
+.chkin-rightbar {
+    border-right: 6px solid #ccc !important
+}
+
+.chkin-section,
+.chkin-code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.chkin-margin {
+    margin: 16px !important
+}
+
+.chkin-margin-top {
+    margin-top: 16px !important
+}
+
+.chkin-margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.chkin-margin-left {
+    margin-left: 16px !important
+}
+
+.chkin-margin-right {
+    margin-right: 16px !important
+}
+
+.chkin-padding-small {
+    padding: 4px 8px !important
+}
+
+.chkin-padding {
+    padding: 8px 16px !important
+}
+
+.chkin-padding-large {
+    padding: 12px 24px !important
+}
+
+.chkin-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.chkin-padding-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important
+}
+
+.chkin-padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+}
+
+.chkin-padding-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important
+}
+
+.chkin-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.chkin-left {
+    float: left !important
+}
+
+.chkin-right {
+    float: right !important
+}
+
+.chkin-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.chkin-transparent,
+.chkin-hover-none:hover {
+    background-color: transparent !important
+}
+
+.chkin-hover-none:hover {
+    box-shadow: none !important
+}
+
+
+/* Colors */
+
+.chkin-amber,
+.chkin-hover-amber:hover {
+    color: #000 !important;
+    background-color: #ffc107 !important
+}
+
+.chkin-aqua,
+.chkin-hover-aqua:hover {
+    color: #000 !important;
+    background-color: #00ffff !important
+}
+
+.chkin-blue,
+.chkin-hover-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+
+.chkin-light-blue,
+.chkin-hover-light-blue:hover {
+    color: #000 !important;
+    background-color: #87CEEB !important
+}
+
+.chkin-brown,
+.chkin-hover-brown:hover {
+    color: #fff !important;
+    background-color: #795548 !important
+}
+
+.chkin-cyan,
+.chkin-hover-cyan:hover {
+    color: #000 !important;
+    background-color: #00bcd4 !important
+}
+
+.chkin-blue-grey,
+.chkin-hover-blue-grey:hover,
+.chkin-blue-gray,
+.chkin-hover-blue-gray:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.chkin-green,
+.chkin-hover-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
+}
+
+.chkin-light-green,
+.chkin-hover-light-green:hover {
+    color: #000 !important;
+    background-color: #8bc34a !important
+}
+
+.chkin-indigo,
+.chkin-hover-indigo:hover {
+    color: #fff !important;
+    background-color: #3f51b5 !important
+}
+
+.chkin-khaki,
+.chkin-hover-khaki:hover {
+    color: #000 !important;
+    background-color: #f0e68c !important
+}
+
+.chkin-lime,
+.chkin-hover-lime:hover {
+    color: #000 !important;
+    background-color: #cddc39 !important
+}
+
+.chkin-orange,
+.chkin-hover-orange:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important
+}
+
+.chkin-deep-orange,
+.chkin-hover-deep-orange:hover {
+    color: #fff !important;
+    background-color: #005aeb !important
+}
+
+.chkin-pink,
+.chkin-hover-pink:hover {
+    color: #fff !important;
+    background-color: #e91e63 !important
+}
+
+.chkin-purple,
+.chkin-hover-purple:hover {
+    color: #fff !important;
+    background-color: #9c27b0 !important
+}
+
+.chkin-deep-purple,
+.chkin-hover-deep-purple:hover {
+    color: #fff !important;
+    background-color: #673ab7 !important
+}
+
+.chkin-red,
+.chkin-hover-red:hover {
+    color: #fff !important;
+    background-color: #005aeb !important
+}
+
+.chkin-sand,
+.chkin-hover-sand:hover {
+    color: #000 !important;
+    background-color: #fdf5e6 !important
+}
+
+.chkin-teal,
+.chkin-hover-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important
+}
+
+.chkin-yellow,
+.chkin-hover-yellow:hover {
+    color: #000 !important;
+    background-color: #ffeb3b !important
+}
+
+.chkin-white,
+.chkin-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.chkin-black,
+.chkin-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.chkin-grey,
+.chkin-hover-grey:hover,
+.chkin-gray,
+.chkin-hover-gray:hover {
+    color: #000 !important;
+    background-color: #9e9e9e !important
+}
+
+.chkin-light-grey,
+.chkin-hover-light-grey:hover,
+.chkin-light-gray,
+.chkin-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.chkin-dark-grey,
+.chkin-hover-dark-grey:hover,
+.chkin-dark-gray,
+.chkin-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important
+}
+
+.chkin-pale-red,
+.chkin-hover-pale-red:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important
+}
+
+.chkin-pale-green,
+.chkin-hover-pale-green:hover {
+    color: #000 !important;
+    background-color: #ddffdd !important
+}
+
+.chkin-pale-yellow,
+.chkin-hover-pale-yellow:hover {
+    color: #000 !important;
+    background-color: #ffffcc !important
+}
+
+.chkin-pale-blue,
+.chkin-hover-pale-blue:hover {
+    color: #000 !important;
+    background-color: #ddffff !important
+}
+
+.chkin-text-amber,
+.chkin-hover-text-amber:hover {
+    color: #ffc107 !important
+}
+
+.chkin-text-aqua,
+.chkin-hover-text-aqua:hover {
+    color: #00ffff !important
+}
+
+.chkin-text-blue,
+.chkin-hover-text-blue:hover {
+    color: #2196F3 !important
+}
+
+.chkin-text-light-blue,
+.chkin-hover-text-light-blue:hover {
+    color: #87CEEB !important
+}
+
+.chkin-text-brown,
+.chkin-hover-text-brown:hover {
+    color: #795548 !important
+}
+
+.chkin-text-cyan,
+.chkin-hover-text-cyan:hover {
+    color: #00bcd4 !important
+}
+
+.chkin-text-blue-grey,
+.chkin-hover-text-blue-grey:hover,
+.chkin-text-blue-gray,
+.chkin-hover-text-blue-gray:hover {
+    color: #607d8b !important
+}
+
+.chkin-text-green,
+.chkin-hover-text-green:hover {
+    color: #4CAF50 !important
+}
+
+.chkin-text-light-green,
+.chkin-hover-text-light-green:hover {
+    color: #8bc34a !important
+}
+
+.chkin-text-indigo,
+.chkin-hover-text-indigo:hover {
+    color: #3f51b5 !important
+}
+
+.chkin-text-khaki,
+.chkin-hover-text-khaki:hover {
+    color: #b4aa50 !important
+}
+
+.chkin-text-lime,
+.chkin-hover-text-lime:hover {
+    color: #cddc39 !important
+}
+
+.chkin-text-orange,
+.chkin-hover-text-orange:hover {
+    color: #ff9800 !important
+}
+
+.chkin-text-deep-orange,
+.chkin-hover-text-deep-orange:hover {
+    color: #005aeb !important  /* changed*/
+}
+
+.chkin-text-pink,
+.chkin-hover-text-pink:hover {
+    color: #e91e63 !important
+}
+
+.chkin-text-purple,
+.chkin-hover-text-purple:hover {
+    color: #9c27b0 !important
+}
+
+.chkin-text-deep-purple,
+.chkin-hover-text-deep-purple:hover {
+    color: #673ab7 !important
+}
+
+.chkin-text-red,
+.chkin-hover-text-red:hover {
+    color: #005aeb !important
+}
+
+.chkin-text-sand,
+.chkin-hover-text-sand:hover {
+    color: #fdf5e6 !important
+}
+
+.chkin-text-teal,
+.chkin-hover-text-teal:hover {
+    color: #009688 !important
+}
+
+.chkin-text-yellow,
+.chkin-hover-text-yellow:hover {
+    color: #d2be0e !important
+}
+
+.chkin-text-white,
+.chkin-hover-text-white:hover {
+    color: #fff !important
+}
+
+.chkin-text-black,
+.chkin-hover-text-black:hover {
+    color: #000 !important
+}
+
+.chkin-text-grey,
+.chkin-hover-text-grey:hover,
+.chkin-text-gray,
+.chkin-hover-text-gray:hover {
+    color: #757575 !important
+}
+
+.chkin-text-light-grey,
+.chkin-hover-text-light-grey:hover,
+.chkin-text-light-gray,
+.chkin-hover-text-light-gray:hover {
+    color: #f1f1f1 !important
+}
+
+.chkin-text-dark-grey,
+.chkin-hover-text-dark-grey:hover,
+.chkin-text-dark-gray,
+.chkin-hover-text-dark-gray:hover {
+    color: #3a3a3a !important
+}
+
+.chkin-border-amber,
+.chkin-hover-border-amber:hover {
+    border-color: #ffc107 !important
+}
+
+.chkin-border-aqua,
+.chkin-hover-border-aqua:hover {
+    border-color: #00ffff !important
+}
+
+.chkin-border-blue,
+.chkin-hover-border-blue:hover {
+    border-color: #2196F3 !important
+}
+
+.chkin-border-light-blue,
+.chkin-hover-border-light-blue:hover {
+    border-color: #87CEEB !important
+}
+
+.chkin-border-brown,
+.chkin-hover-border-brown:hover {
+    border-color: #795548 !important
+}
+
+.chkin-border-cyan,
+.chkin-hover-border-cyan:hover {
+    border-color: #00bcd4 !important
+}
+
+.chkin-border-blue-grey,
+.chkin-hover-border-blue-grey:hover,
+.chkin-border-blue-gray,
+.chkin-hover-border-blue-gray:hover {
+    border-color: #607d8b !important
+}
+
+.chkin-border-green,
+.chkin-hover-border-green:hover {
+    border-color: #4CAF50 !important
+}
+
+.chkin-border-light-green,
+.chkin-hover-border-light-green:hover {
+    border-color: #8bc34a !important
+}
+
+.chkin-border-indigo,
+.chkin-hover-border-indigo:hover {
+    border-color: #3f51b5 !important
+}
+
+.chkin-border-khaki,
+.chkin-hover-border-khaki:hover {
+    border-color: #f0e68c !important
+}
+
+.chkin-border-lime,
+.chkin-hover-border-lime:hover {
+    border-color: #cddc39 !important
+}
+
+.chkin-border-orange,
+.chkin-hover-border-orange:hover {
+    border-color: #ff9800 !important
+}
+
+.chkin-border-deep-orange,
+.chkin-hover-border-deep-orange:hover {
+    border-color: #005aeb !important /* changed*/
+}
+
+.chkin-border-pink,
+.chkin-hover-border-pink:hover {
+    border-color: #e91e63 !important
+}
+
+.chkin-border-purple,
+.chkin-hover-border-purple:hover {
+    border-color: #9c27b0 !important
+}
+
+.chkin-border-deep-purple,
+.chkin-hover-border-deep-purple:hover {
+    border-color: #673ab7 !important
+}
+
+.chkin-border-red,
+.chkin-hover-border-red:hover {
+    border-color: #005aeb !important
+}
+
+.chkin-border-sand,
+.chkin-hover-border-sand:hover {
+    border-color: #fdf5e6 !important
+}
+
+.chkin-border-teal,
+.chkin-hover-border-teal:hover {
+    border-color: #009688 !important
+}
+
+.chkin-border-yellow,
+.chkin-hover-border-yellow:hover {
+    border-color: #ffeb3b !important
+}
+
+.chkin-border-white,
+.chkin-hover-border-white:hover {
+    border-color: #fff !important
+}
+
+.chkin-border-black,
+.chkin-hover-border-black:hover {
+    border-color: #000 !important
+}
+
+.chkin-border-grey,
+.chkin-hover-border-grey:hover,
+.chkin-border-gray,
+.chkin-hover-border-gray:hover {
+    border-color: #9e9e9e !important
+}
+
+.chkin-border-light-grey,
+.chkin-hover-border-light-grey:hover,
+.chkin-border-light-gray,
+.chkin-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important
+}
+
+.chkin-border-dark-grey,
+.chkin-hover-border-dark-grey:hover,
+.chkin-border-dark-gray,
+.chkin-hover-border-dark-gray:hover {
+    border-color: #616161 !important
+}
+
+.chkin-border-pale-red,
+.chkin-hover-border-pale-red:hover {
+    border-color: #ffe7e7 !important
+}
+
+.chkin-border-pale-green,
+.chkin-hover-border-pale-green:hover {
+    border-color: #e7ffe7 !important
+}
+
+.chkin-border-pale-yellow,
+.chkin-hover-border-pale-yellow:hover {
+    border-color: #ffffcc !important
+}
+
+.chkin-border-pale-blue,
+.chkin-hover-border-pale-blue:hover {
+    border-color: #e7ffff !important
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #4272d7;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #4272d7;
+    color: white;
+}
