@@ -3,7 +3,7 @@
 Group Members:<br/>
 Minh Sang Nguyen<br/>
 Efrem Tekle<br/>
-Habtom<br/>
+Habtom Abraha Gebre<br/>
 
 Project Introduction<br/>
 Hotel Management System<br/>

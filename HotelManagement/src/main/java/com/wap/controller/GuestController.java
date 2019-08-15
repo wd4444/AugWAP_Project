@@ -52,7 +52,12 @@ public class GuestController extends HttpServlet {
         request.getServletContext().setAttribute("aGuest", guest);
         request.getServletContext().setAttribute("contactUs", contactUs);// not necessary
         // adding guest to dao
+        if(request.getServletContext().getAttribute("guestDAO") != null) {
+            dao = (GuestDao) request.getServletContext().getAttribute("guestDAO");
+        }
         dao.addGuest(guest);
+
+        request.getServletContext().setAttribute("guestDAO", dao);
         // return to js
         PrintWriter out = response.getWriter();
         out.print(gson.toJson(guest));

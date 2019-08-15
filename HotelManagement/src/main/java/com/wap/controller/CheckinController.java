@@ -36,7 +36,7 @@ public class CheckinController extends HttpServlet {
         int guestId = Integer.parseInt(checkinModel.getGuestId());
         String roomType = checkinModel.getRoomType();
 
-        GuestDao guestDao = (GuestDao) request.getSession().getAttribute("guestDAO");
+        GuestDao guestDao = (GuestDao) request.getServletContext().getAttribute("guestDAO");
         Guest guest = guestDao.getGuestById(guestId);
 
         PrintWriter out = response.getWriter();
@@ -50,7 +50,7 @@ public class CheckinController extends HttpServlet {
                 guest.setCheckInTime(LocalDateTime.now().toString());
                 guest.setCheckedin(true);
                 guestDao.updateGuest(guest);
-                request.getSession().setAttribute("guestDAO", guestDao);
+                request.getServletContext().setAttribute("guestDAO", guestDao);
                 checkinReturnModel.setSuccess(true);
 
             }else{
@@ -72,7 +72,7 @@ public class CheckinController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String guestId = request.getParameter("guestId");
-        GuestDao guestDao = (GuestDao) request.getSession().getAttribute("guestDAO");
+        GuestDao guestDao = (GuestDao) request.getServletContext().getAttribute("guestDAO");
         Guest guest = guestDao.getGuestById(Integer.parseInt(guestId));
         request.setAttribute("guest",guest);
         request.getRequestDispatcher("checkout.jsp").forward(request,response);

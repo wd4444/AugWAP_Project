@@ -33,7 +33,7 @@ public class CheckoutController extends HttpServlet {
         String jsonSting = request.getParameter("billingInfo");
         BillingInfo billingInfo = mapper.fromJson(request.getParameter("billingInfo"), BillingInfo.class);
         String guestId = billingInfo.getId();
-        GuestDao guestDao = (GuestDao) request.getSession().getAttribute("guestDAO");
+        GuestDao guestDao = (GuestDao) request.getServletContext().getAttribute("guestDAO");
         Guest guest = guestDao.getGuestById(Integer.parseInt(guestId));
         float rate = guest.getRoom().getRate();
          String in= guest.getCheckInTime();

@@ -50,10 +50,10 @@ public class LoginController extends HttpServlet {
             String errorMessage = "";
             request.getSession().setAttribute("msg", errorMessage);
             GuestDao localGuestDAO = guestDao;
-            if(request.getSession().getAttribute("guestDAO") != null){
-                localGuestDAO = (GuestDao)request.getSession().getAttribute("guestDAO");
+            if(request.getServletContext().getAttribute("guestDAO") != null){
+                localGuestDAO = (GuestDao)request.getServletContext().getAttribute("guestDAO");
             }else{
-                request.getSession().setAttribute("guestDAO", guestDao);
+                request.getServletContext().setAttribute("guestDAO", guestDao);
             }
 
             request.setAttribute("guests",localGuestDAO.getAllGuest());
