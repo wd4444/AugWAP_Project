@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afbd2cac-f389-431e-abf0-44662df7b671" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/GuestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/GuestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wap/controller/CheckinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wap/controller/CheckinController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wap/controller/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wap/controller/GuestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wap/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wap/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/CheckoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/CheckoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wap/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wap/controller/CheckoutController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +93,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -437,7 +433,7 @@
       <workItem from="1565833051896" duration="1700000" />
       <workItem from="1565886189441" duration="7106000" />
       <workItem from="1565899294887" duration="345000" />
-      <workItem from="1565899898381" duration="4657000" />
+      <workItem from="1565899898381" duration="6780000" />
     </task>
     <servers />
   </component>
