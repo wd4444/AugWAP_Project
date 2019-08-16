@@ -6,18 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afbd2cac-f389-431e-abf0-44662df7b671" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/CheckoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/WEB-INF/classes/com/wap/controller/CheckoutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/resources/js/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/resources/js/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wap/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wap/controller/CheckoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wap/controller/CheckoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wap/controller/CheckoutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/css/checkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/checkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/css/guestDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/guestDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/js/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/js/checkout.js" afterDir="false" />
-    </list>
+    <list default="true" id="afbd2cac-f389-431e-abf0-44662df7b671" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +430,7 @@
       <workItem from="1565886189441" duration="7106000" />
       <workItem from="1565899294887" duration="345000" />
       <workItem from="1565899898381" duration="21697000" />
-      <workItem from="1565929974710" duration="7901000" />
+      <workItem from="1565929974710" duration="8381000" />
     </task>
     <servers />
   </component>
