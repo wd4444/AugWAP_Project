@@ -30,6 +30,8 @@
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="container">
+    <input type="hidden" id="guest_id" name="guest_id" value="${guest.id}"/>
+    <input type="hidden" id="rent_Bill" name="rent_Bill" value=""/>
     <table id="cart" class="table table-hover table-condensed">
         <thead>
         <tr>

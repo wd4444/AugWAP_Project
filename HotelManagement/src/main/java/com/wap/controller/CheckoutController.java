@@ -35,9 +35,11 @@ public class CheckoutController extends HttpServlet {
         String guestId = billingInfo.getId();
         GuestDao guestDao = (GuestDao) request.getServletContext().getAttribute("guestDAO");
         Guest guest = guestDao.getGuestById(Integer.parseInt(guestId));
-        float rate = guest.getRoom().getRate();
-        String in = guest.getCheckInTime();
-        guestDao.removeGuest(guest);
+        //float rate = guest.getRoom().getRate();
+        //String in = guest.getCheckInTime();
+        if(guest != null) {
+            guestDao.removeGuest(guest);
+        }
         request.setAttribute("guests", guestDao.getAllGuest());
         //response.sendRedirect("checkin.jsp");
         request.getRequestDispatcher("/checkin.jsp").forward(request, response);
