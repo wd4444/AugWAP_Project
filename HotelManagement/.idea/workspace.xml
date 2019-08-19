@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afbd2cac-f389-431e-abf0-44662df7b671" name="Default Changelist" comment="" />
+    <list default="true" id="afbd2cac-f389-431e-abf0-44662df7b671" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/guestDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/guestDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/resources/css/checkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/resources/css/checkin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/resources/css/guestDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/HotelApp_Web_exploded/resources/css/guestDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/guestDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/guestDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/css/guestDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/guestDetails.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/resources/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -95,22 +102,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/resources/js" />
+      <recent name="$PROJECT_DIR$/web" />
       <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web\resources\css" />
-      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web\resources\images" />
-      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web" />
-      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web\WEB-INF" />
+      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\WAP_Repository\GroupProject-Hotel-Reservations\web\WEB-INF" />
       <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\WAP_Repository\GroupProject-Hotel-Reservations\web\resources\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.group5.model" />
       <recent name="com.group5.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web\resources\css" />
-      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\WAP_Repository\GroupProject-Hotel-Reservations\web\WEB-INF" />
+      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web\resources\images" />
+      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web" />
+      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\GroupProject-Hotel-Reservations\web\WEB-INF" />
       <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\WAP_Repository\GroupProject-Hotel-Reservations\web\resources\css" />
-      <recent name="C:\Users\aaaro\OneDrive\Documents\All_WAP2019-DocuAaron\WAP_Repository\GroupProject-Hotel-Reservations\web\resources\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,7 +438,8 @@
       <workItem from="1565886189441" duration="7106000" />
       <workItem from="1565899294887" duration="345000" />
       <workItem from="1565899898381" duration="21697000" />
-      <workItem from="1565929974710" duration="8381000" />
+      <workItem from="1565929974710" duration="8726000" />
+      <workItem from="1566175765291" duration="656000" />
     </task>
     <servers />
   </component>

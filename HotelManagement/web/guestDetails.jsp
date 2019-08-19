@@ -5,9 +5,6 @@
 <head>
     <title> Room reservation</title>
     <link href="resources/css/guestDetails.css" rel="stylesheet" />
-    <script type="text/javascript"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="resources/js/guestScript.js"></script>
 </head>
 <!-- the body part -->
 <body>
@@ -107,7 +104,7 @@
         </div>
         <!-- the submit and reset buttons -->
         <div class="block_border">
-            <input id="btnSubmit" type="button" value="Submit" />
+            <input  type="submit" value="Submit" />
             <input type="reset" value="Reset" />
         </div>
 

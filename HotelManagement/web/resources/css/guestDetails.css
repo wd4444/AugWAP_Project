@@ -61,7 +61,7 @@ text-align: center;
 /*    width: 240px;*/
 /*}*/
 
-#btnSubmit, input[type="button"] {
+#btnSubmit, input[type="submit"] {
     font-size: 15px;
     background-color: #005aeb;
     color: #FFFFFF;
